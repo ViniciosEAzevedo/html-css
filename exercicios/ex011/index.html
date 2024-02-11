@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse  site em varios dispositivos diferentes ou simpresmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midias/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midias/guanacast-33.ogg" type="audio/ogg">
+        <source src="midias/guanacast-33.wav" type="audio/wav"><!-- evitar usar wav, é muito pesado para moveis-->
+        <p>Infelismente seu navegador não consegue reproduzir audio. <a href="midias/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">clique aqui para baixar o arquivo MP3 </a></p><!--opção caso os audios assima não reproduzam no nvgd-->
+    </audio>
+
+    <audio preload="metadata" controls loop>
+        <source src="midias/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midias/happy-mistake.ogg" type="audio/mpeg">
+        <source src="midias/happy-mistake.wav" type="audio/wav">
+        <p>Infelismente seu navegador não consegue reproduzir audio. <a href="midias/happy-mistake.mp3" download="happy-mistake-mp3" type="audio/mpeg">Clique aqui para baixar o arquivo MP</a></p><!--opção caso os audios assima não reproduzam no nvgd-->
+    </audio>
+    
+        
+</body>
+</html>

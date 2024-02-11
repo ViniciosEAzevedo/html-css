@@ -1,0 +1,44 @@
+@font-face {
+    font-family:'love' ;
+    src: url(fonts/love\ story\ ttf.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotic';
+    src: url(fonts/Old\ Celtiberians.otf)format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eve';
+    src: url(fonts/evanescent.ttf)
+    format(ttf), url(fonts/evanescent_p.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{ 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    font-family: 'love', Times, serif;
+    background-color: rgba(143, 146, 129, 0.062);
+    
+}
+#titulo1,#P1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2em;
+    font-family: gotic;
+    color: rgb(29, 198, 250);
+}
+.Sub,.p2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2em;
+    font-family: 'eve';
+    color: rgba(157, 30, 173, 0.521);
+}

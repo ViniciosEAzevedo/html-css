@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+               
+        
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Incerindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+
+    <video width="560px" poster="imagens/tanb.jpg" controls loop>
+        <source src="midia/Video-Passaro.mkv" type="video/mkv">
+        <source src="midia/Video-Passaro.webm" type="video/webm">
+        <source src="midia/video-passaro.mp4" type="video/mp4">
+        <source src="midia/video-passaro.ogv" type="video/ogv">
+
+        <p>Seu navegador não tem compatibilidade com reprodutor de videos <a href="midia/video-passaro.mp4" download="video-passaro.mp4" type="video/mp4">Clique</a> aqui para baixar o video</p>
+    </video>
+
+    <h1> Inserindo videos do YouTube </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/197093965?color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</body>
+</html>
